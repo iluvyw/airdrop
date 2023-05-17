@@ -1,6 +1,7 @@
-# Sample Hardhat Project
+# Airdrop Hardhat Project (Merkle Proof)
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This project supports users in creating their own airdrops and verifies data using Merkle Tree proof.
+It comes with a sample contract, a test for that contract, and a script that deploys that contract.
 
 Try running some of the following tasks:
 
@@ -8,6 +9,7 @@ Try running some of the following tasks:
 npx hardhat help
 npx hardhat test
 REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
+npx hardhat coverage
+npx hardhat run scripts/deploy.ts --network sepolia
+npx hardhat run scripts/verify.ts --network sepolia
 ```
