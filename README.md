@@ -13,3 +13,6 @@ npx hardhat coverage
 npx hardhat run scripts/deploy.ts --network sepolia
 npx hardhat run scripts/verify.ts --network sepolia
 ```
+
+**Reference**
+[Openzeppelin](https://docs.openzeppelin.com/contracts/3.x/api/cryptography#MerkleProof)
